@@ -72,3 +72,110 @@ nav li
 	list-style: none;
 	padding-left: 30px;
 }
+
+#background 
+{
+	height: 450px;
+	position: relative;
+}
+
+#background_image 
+{
+	position: absolute;
+}
+
+#background_image img
+{
+	width: 1200px;
+	height: 490px;
+	object-fit: contain;
+}
+
+#background_title
+{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#background_title_logo 
+{
+    width: 200px;
+}
+
+#background_title h1 
+{
+	color: white;
+	font-weight: 400;
+}
+
+#presentation 
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 25px;
+}
+
+#premiere_partie, #Competences
+{
+	margin-top: 30px;
+	max-width: 800px;
+}
+
+#premiere_partie
+{
+	text-align: center;
+	color:#403842;
+	font-size: 1.4em;
+}
+
+#Competences 
+{
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+#Competences article 
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 20px 0 20px;
+}
+
+#Competences h2
+{
+	font-weight: normal;
+}
+
+#Competences p
+{
+	display: flex;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+#citation
+{
+	text-align: center;	
+	max-width: 600px;
+	margin-top: 10px;
+	color:#403842;
+}
+
+.citationContenu
+{
+	font-size: 1.3em;
+}
+
+.citationRestauratrice
+{
+	font-weight: 250;
+	font-size: 1.1em;
+}
