@@ -179,3 +179,50 @@ nav li
 	font-weight: 250;
 	font-size: 1.1em;
 }
+
+footer
+{
+	background-color: #69389E;
+	color: white;
+	text-decoration: none;
+}
+
+#Titre_footer
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 0.4em;
+}
+
+.border_red
+{
+	display: flex;
+	justify-content: center;
+}
+
+.fab
+{
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+#footer_du_footer
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer_column h3 
+{
+	color: #CDCDCD;
+	margin-top: 20px;    
+	font-weight: 400;
+    font-size: 1.0em;
+}
+
+.border_green
+{
+	text-decoration: none;
+	color: white;
+}
