@@ -1,0 +1,43 @@
+/*.border 
+{
+	border: 3px solid black;
+	margin: 2px;
+}
+
+.red 
+{
+	border-color: red;
+}
+
+.green 
+{
+	border-color: green;
+}
+
+.blue 
+{
+	border-color: blue;
+}
+
+.black 
+{
+	border-color: black;
+}
+
+.yellow 
+{
+	border-color: yellow;
+}*/
+
+body 
+{
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+#container 
+{
+	width: 100%;
+	max-width: 1200px;
+}
